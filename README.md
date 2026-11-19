@@ -201,3 +201,14 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 # ShiftlyLV
 Shiftly es una app web gamificada de inglés profesional que prepara a trabajadores para laborar en el extranjero. Enseña vocabulario técnico, jerga laboral e modismos corporativos complejos mediante lecciones interactivas, ayudando a los usuarios a comunicarse con total confianza y evitar malentendidos en su día a día.
+
+Organización y funcionamiento del proyecto
+
+Shiftly está desarrollado con Laravel y utiliza la arquitectura MVC, que permite organizar el código para que sea más fácil de entender y mantener
+Modelos: representan la información que utiliza la aplicación. Por ejemplo, User administra los datos de los usuarios y Ejercicio representa las actividades de aprendizaje
+Vistas: son las pantallas que ve el usuario, como el inicio de sesión, registro, perfil, dashboard y contacto
+Controladores: se encargan de procesar las acciones del usuario, como registrar una cuenta, iniciar sesión, actualizar el perfil y administrar ejercicios
+Rutas: indican qué sucede cuando el usuario entra a una sección o realiza una acción dentro de la aplicación
+Validaciones: comprueban que los datos ingresados en los formularios sean correctos antes de procesarlos
+Pruebas: permiten revisar que diferentes partes de la aplicación funcionen correctamente
+En conjunto, estos elementos permiten que Shiftly funcione de manera organizada, conectando las pantallas con las acciones y la información de los usuarios
